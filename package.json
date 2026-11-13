@@ -1,0 +1,15 @@
+{
+  "name": "adforge-local",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-first product ad studio with JSON storage and AI provider routing",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  }
+}
